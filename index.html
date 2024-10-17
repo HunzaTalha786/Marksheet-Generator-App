@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Marksheet Generator</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+    <h1></h1>
+    <div class="container">
+        <h2>Marksheet Generator</h2>
+            <label for="marks1">Obtained Marks for Subject 1:</label>
+            <input type="number" id="marks1" required placeholder="Out of 100">
+    
+            
+            <label for="marks2">Obtained Marks for Subject 2:</label>
+            <input type="number" id="marks2" required placeholder="Out of 100">
+    
+            <label for="marks3">Obtained Marks for Subject 3:</label>
+            <input type="number" id="marks3" required  placeholder="Out of 100">
+    
+            <button onclick="calculate()">Calculate</button>
+            <button id="restart" onclick="restart()">Restart</button>
+    
+    
+        <div id="result" style="margin-top: 20px;"></div>
+    </div>
+    
+</body>
+<script src="./script.js"></script>
+</html>
